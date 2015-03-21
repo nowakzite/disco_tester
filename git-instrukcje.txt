@@ -1,4 +1,4 @@
-cd /c/git/disko-tester
+ï»¿cd /c/git/disko-tester
 
 ** GLOBALNE USTAWIENIA GITA **
 git config --global user.name "nowakzite"
@@ -6,11 +6,11 @@ git config --global user.email "nowakzite@wp.pl"
 
 ** TWORZENIE REPOZYTORIUM OD ZERA **
 
-git init - utworzenie lokalnego repozytorium git z folderu w ktorym siê aktualnie znajdujê
-git add . - uwzglêdnienie wszystkich plików w nastêpnym commitie
-git commit -m "tresc kommitu" - komitniêcie wszystkiego z folderu jako initial commit
-git remote add origin https://github.com/nowakzite/disco_tester.git - dodanie do repozytoriów zdalnych dla tego repozytorium repozytorium o kryptonimie "origin" i koordynatach https://...
-git push -u origin master - wypchniêcie zmian do repozytorium zdalnego o kryptonimie origin
+git init - utworzenie lokalnego repozytorium git z folderu w ktorym siÃª aktualnie znajdujÃª
+git add . - uwzglÃªdnienie wszystkich plikÃ³w w nastÃªpnym commitie
+git commit -m "tresc kommitu" - komitniÃªcie wszystkiego z folderu jako initial commit
+git remote add origin https://github.com/nowakzite/disco_tester.git - dodanie do repozytoriÃ³w zdalnych dla tego repozytorium repozytorium o kryptonimie "origin" i koordynatach https://...
+git push -u origin master - wypchniÃªcie zmian do repozytorium zdalnego o kryptonimie origin
 
 ** KLONOWANIE ISTNIEJACEGO REPOZYTORIUM **
 git clone https://github.com/nowakzite/disco_tester.git
@@ -20,3 +20,22 @@ git pull - pobranie zmian
 
 ** INFORMACJE O OSTATNICH COMMITACH **
 git log
+
+** WPROWADZANIE ZMIAN **
+git add nowy_plik - gdy w commiticie ma sie pojawic nowy plik o nazwie nowy_plik, w wypadku modyfikacji istniejacego pliku komenda git add jest niepotrzebna
+git commit -am "tytul komita"
+git push -u origin master
+
+** KONFIGURACJA NARZEDZIA DO ROZWIAZYWANIA KONFLIKTOW **
+instalacja programu kdiff3
+skonfigurowanie zmiennych srodowiskowych windowska tak aby w zmiennej "path" pojawil sie katalog gdzie zostal zainstalwany kdiff3
+zamkniecie i odpalenie jeszcze raz git basha, aby zmienna srodowiskowa path zostala odswierzona
+git config --global merge.tool kdiff3 - skonfigurowanie gita, tak aby kdiff3 byl domyslnym narzedziem do rozwiazywania konfliktow
+
+** ROZWIAZYWANIE KONFLIKTOW **
+git push zwrocilo informacje o tym ze lokalna wersja jest do tylu wzgledem zdalnego repozytorium
+git pull - pojawi sie "|MERGING" na koncu informacji o branchu oraz komunikat o konflikcie
+git mergetool - kazdy konflikt musi zostaÄ‡ indywidualnie rozwiazany przez kdiff3, po zapisaniu pliku zamknac okno
+git commit - komitniecie zmian po rozwiazaniu konfliktow, pojawi sie edytor konsolowy linuxa VIM
+w VIMie dwukropek (; + SHIFT) i polecenie wq (w = zapisz, q = wyjdz) i enter
+git push -u orgin master - wypchniecie zmian po rozwiazaniu konfliktow
