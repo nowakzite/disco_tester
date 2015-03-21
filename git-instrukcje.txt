@@ -6,9 +6,9 @@ git config --global user.email "nowakzite@wp.pl"
 
 ** TWORZENIE REPOZYTORIUM OD ZERA **
 
-git init - utworzenie lokalnego repozytorium git z folderu w ktorym siê aktualnie znajdujê
-git add . - uwzglêdnienie wszystkich plików w nastêpnym commitie
-git commit -m "tresc kommitu" - komitniêcie wszystkiego z folderu jako initial commit
+git init - utworzenie lokalnego repozytorium git z folderu w ktorym się aktualnie znajduje
+git add . - uwzględnienie wszystkich plików w następnym commitie
+git commit -m "tresc kommitu" - komitnięcie wszystkiego z folderu jako initial commit
 git remote add origin https://github.com/nowakzite/disco_tester.git - dodanie do repozytoriów zdalnych dla tego repozytorium repozytorium o kryptonimie "origin" i koordynatach https://...
 git push -u origin master - wypchniêcie zmian do repozytorium zdalnego o kryptonimie origin
 
