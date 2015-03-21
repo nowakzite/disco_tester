@@ -11,5 +11,5 @@ git push -u origin master - wypchniêcie zmian do repozytorium zdalnego o krypton
 **KLONOWANIE ISTNIEJACEGO REPOZYTORIUM**
 git clone https://github.com/nowakzite/disco_tester.git
 
-**POBRANIE ZMIAN**
+**POBRANIE ZMIAN 666 ^-_-^@;;@@;;@''''' **
 git pull - pobranie zmian
