@@ -13,4 +13,3 @@ git clone https://github.com/nowakzite/disco_tester.git
 
 **POBRANIE ZMIAN**
 git pull - pobranie zmian
-git pull master - pobranie zmian dla konkretne brancha, w tym przypadku brancha "master"
