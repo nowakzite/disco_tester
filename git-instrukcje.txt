@@ -1,0 +1,6 @@
+cd /c/git/disko-tester
+git init
+git add .
+git commit -m "tresc kommitu"
+git remote add origin https://github.com/nowakzite/disco_tester.git
+git push -u origin master
