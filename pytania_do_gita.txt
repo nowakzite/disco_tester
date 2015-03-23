@@ -11,6 +11,6 @@ przy commitowaniu (ale nie przy push juz) warto uzywac Tortoise'a,
 pokazuje jakie plikie sie zmienily kontrolnie i np cofnac zmiany przed samym komitem jak sa tam niepotrzebne elementy
 
 3) pojawił sie plik o nazwie d - ja go nie doddawałem
-dodales jakos magicznie :)
+dodales jakos magicznie :) w ramach cwiczenia postaraj sie go usunac ^-_-^
 
 4) zapomniałem... a;e sobie przypomnę
