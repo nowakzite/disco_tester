@@ -1,4 +1,16 @@
 1) jak pozbyć się znaku ":" w konsoli (pojawia się na końcu np po wykonaniu polecenia git log)
+
+przewinac strzalkami w dol, po dojsciu do konca powinno samo sie usunac, 
+albo CTRL + C (ta komenda jest w linuxie uzywana do konczenia aktualnie wykonywanych w konsoli programow, 
+takie CTRL + ALT + DELETE z windowsa, tylko skuteczniejsze)
+
 2) git hub: mamy 3 pliki i przy każdym nazwa oststniego commita to "komentarz o asteroidzie", mimo, że mój komentarz dotyczy tylko pliku dziwne rzeczy. to jest żle czy git hub wyświetla commity dla całego folderu disko tester nie rozdzielając to na pliki w nim?
+
+1 commit = moze byc wiele plikow, zmieniles (mogles nawet nie zauwazyc 2 pliki (w w jednym spacja na koncu) i dodales plik d,
+przy commitowaniu (ale nie przy push juz) warto uzywac Tortoise'a, 
+pokazuje jakie plikie sie zmienily kontrolnie i np cofnac zmiany przed samym komitem jak sa tam niepotrzebne elementy
+
 3) pojawił sie plik o nazwie d - ja go nie doddawałem
+dodales jakos magicznie :)
+
 4) zapomniałem... a;e sobie przypomnę
