@@ -1,0 +1,4 @@
+1) jak pozbyć się znaku ":" w konsoli (pojawia się na końcu np po wykonaniu polecenia git log)
+2) git hub: mamy 3 pliki i przy każdym nazwa oststniego commita to "komentarz o asteroidzie", mimo, że mój komentarz dotyczy tylko pliku dziwne rzeczy. to jest żle czy git hub wyświetla commity dla całego folderu disko tester nie rozdzielając to na pliki w nim?
+3) pojawił sie plik o nazwie d - ja go nie doddawałem
+4) zapomniałem... a;e sobie przypomnę
